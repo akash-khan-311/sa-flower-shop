@@ -25,6 +25,10 @@ p {
   color: rgba(39, 39, 39, 0.6);
   margin: 30px 0;
 }
+input {
+  border: none;
+  outline: none;
+}
 .main-color {
   color: #e55473;
 }
@@ -209,4 +213,51 @@ p {
 .image-item img:hover {
   transform: scale(1.2);
   overflow: hidden;
+}
+
+/* Latest News Part */
+.latest-news-part {
+  background-image: url(images/Rectangle\ 9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.latest-news-part p {
+  margin: 0;
+}
+
+.subscribe-field {
+  margin-top: 50px;
+}
+.subscribe-field input {
+  width: 50%;
+  padding: 17px 15px;
+  border-radius: 10px;
+}
+
+/* Counter Part */
+.counters {
+  padding: 60px 130px;
+  margin: 0px auto;
+  box-shadow: 0 1px 25px -7px #3d3d3d;
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+.counters-box {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.counters-box a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #e74c3c;
+}
+
+.counters-box p {
+  margin: 0;
 }
