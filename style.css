@@ -99,6 +99,7 @@ p {
 /* Feature part */
 .feature-heading {
   text-align: center;
+  margin-top: 30px;
 }
 .feature-container {
   display: flex;
@@ -106,14 +107,40 @@ p {
   align-items: center;
 }
 .feature-item {
-  border: 1px solid #000;
   text-align: center;
 }
+.feature-item a {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #272727;
+  margin-top: 25px;
+  display: inline-block;
+}
 .feature-img1 {
-  padding: 50px 50px 0 0;
+  padding: 100px 50px 0 0;
   background: rgba(167, 33, 98, 0.15);
   border-radius: 50% 50% 0 0;
 }
-.feature-img img {
-  width: 300px;
+.feature-img2 {
+  padding: 82px 9px 0 0;
+  background: rgba(5, 151, 160, 0.15);
+
+  border-radius: 50% 50% 0 0;
+}
+.feature-img3 {
+  padding: 90px 50px 0 0;
+  background: rgba(167, 33, 98, 0.15);
+  border-radius: 50% 50% 0 0;
+}
+.feature-img1 img {
+  width: 70%;
+  margin: 0 auto;
+}
+.feature-img2 img {
+  width: 90%;
+  margin: 0 auto;
+}
+.feature-img3 img {
+  width: 70%;
+  margin: 0 auto;
 }
