@@ -185,3 +185,28 @@ p {
 .hot-deals-img img {
   width: 300px;
 }
+
+/* Instagram part */
+#instagram {
+  margin: 200px 0;
+  text-align: center;
+}
+
+.instagram-image-container {
+  display: flex;
+  gap: 25px;
+}
+
+.image-item {
+  overflow: hidden;
+}
+
+.image-item img {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.image-item img:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+}
