@@ -144,3 +144,26 @@ p {
   width: 70%;
   margin: 0 auto;
 }
+
+/* Services Part */
+.services-part {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 100px 0;
+}
+
+.services-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 85px 60px;
+}
+
+.services-item img {
+  width: 50px;
+}
+.services-item p {
+  margin: 0;
+  font-size: 20px;
+  color: black;
+}
