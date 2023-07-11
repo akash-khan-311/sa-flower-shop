@@ -167,3 +167,21 @@ p {
   font-size: 20px;
   color: black;
 }
+/* Hot Deals part  */
+#hot-deals {
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+}
+
+.hot-deals-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hot-deals-content {
+  text-align: center;
+}
+
+.hot-deals-img img {
+  width: 300px;
+}
