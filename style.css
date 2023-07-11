@@ -52,7 +52,7 @@ input {
 }
 
 #header-part {
-  background: rgba(229, 84, 115, 0.1);
+  background: rgba(167, 33, 98, 0.15);
 }
 
 .nav-menu {
@@ -173,7 +173,7 @@ input {
 }
 /* Hot Deals part  */
 #hot-deals {
-  background: rgba(229, 84, 115, 0.05);
+  background: rgba(167, 33, 98, 0.15);
   padding: 100px 0;
 }
 
