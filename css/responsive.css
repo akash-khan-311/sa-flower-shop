@@ -1,0 +1,204 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #nav {
+        display: none;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .banner-part {
+        flex-direction: column;
+    }
+    .banner-content {
+        width: 100%;
+        
+    }
+    .banner-img {
+        margin-top: 40px;
+    }
+    .feature-container {
+        flex-direction: column;
+    }
+    .feature-item {
+        margin-top: 20px;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .services-item {
+        padding: 50px 0;
+    }
+    .hot-deals-container {
+        flex-direction: column;
+
+    }
+    .hot-deals-content {
+        margin-bottom: 20px;
+    }
+    .instagram-image-container {
+        flex-direction: column;
+    }
+    .subscribe-field {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .subscribe-field input {
+        width: 100%;
+    } 
+    .counters  {
+        flex-wrap: wrap;
+    }
+    .counters-box {
+        margin-top: 20px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 55px;
+    }
+    p {
+        font-size: 16px;
+    }
+    #nav {
+        display: none;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .banner-part {
+        flex-direction: column;
+    }
+    .banner-content {
+        width: 100%;
+        
+    }
+    .banner-img {
+        margin-top: 40px;
+    }
+    .feature-container {
+       flex-direction: column;
+    }
+    .feature-item {
+        margin-top: 20px;
+    }
+    .services-container {
+        flex-direction: row;
+        
+    }
+    .services-item {
+        padding: 50px 0;
+    }
+    .hot-deals-container {
+        flex-direction: column;
+
+    }
+    .hot-deals-content {
+        margin-bottom: 20px;
+    }
+    .instagram-image-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image-item {
+        margin: 0 auto;
+    }
+  
+   
+    .counters  {
+        flex-direction: column;
+    }
+    .counters-box {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 55px;
+    }
+    p {
+        font-size: 16px;
+    }
+    #nav {
+        display: none;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .banner-part {
+        flex-direction: row;
+    }
+    .banner-content {
+        width: 50%;
+        
+    }
+    .banner-img {
+        margin-top: 40px;
+        width: 50%;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .feature-container {
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+    .feature-item {
+        margin-top: 20px;
+    }
+    .services-container {
+        flex-direction: row;
+        
+    }
+    .services-item {
+        padding: 50px 0;
+    }
+    .hot-deals-container {
+        flex-direction: row;
+
+    }
+    
+    .instagram-image-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image-item {
+        margin: 0 auto;
+    }
+  
+   
+    .counters  {
+        flex-direction: column;
+    }
+    .counters-box {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+ /* No media query since the extra-large breakpoint has no upper bound on its width */
